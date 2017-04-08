@@ -35,4 +35,24 @@ namespace Generic
             }
         }
     }
+
+    public class Apple
+    {
+        public string Name { get; set; }
+    }
+
+    public class Biscuit
+    {
+
+    }
+
+    public class SingletonTest
+    {
+        public static void Test1()
+        {
+            Singleton<Apple>.Instance = new Apple() { Name = "1" };
+            Singleton<Biscuit>.Instance = new Biscuit();
+            Console.WriteLine(Singleton<Apple>.AllSingletons.Count);
+        }
+    }
 }
