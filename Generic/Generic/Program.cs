@@ -10,7 +10,7 @@ namespace Generic
     {
         static void Main(string[] args)
         {
-            SingletonTest.Test1();
+            CtorTest.CtorTest.Start();
             Console.ReadKey();
         }
 
