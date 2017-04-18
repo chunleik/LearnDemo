@@ -10,7 +10,9 @@ namespace Generic
     {
         static void Main(string[] args)
         {
-            CtorTest.CtorTest.Start();
+            var task=Asyncawait.AsyncAwaitTest.MyMethodAsync(1);
+            var s=task.Result;
+            Console.WriteLine(s);
             Console.ReadKey();
         }
 
