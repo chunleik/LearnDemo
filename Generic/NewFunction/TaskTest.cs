@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using TestFramework;
 
 namespace NewFunction
 {
+    [Executing("2017/06/20 23:02")]
     public class TaskTest
     {
         public void Start()

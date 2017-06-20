@@ -4,9 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TestFramework;
 
 namespace NewFunction
 {
+    [Executing("2017/6/20 23:02:10")]
     public class WatchDeviceTimeChange
     {
         public void Start()
