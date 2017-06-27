@@ -7,9 +7,9 @@ using System.Windows;
 
 namespace Generic.WeakEvent
 {
-    public class Consumer : IWeakEventListener
+    public class Consumer :   IWeakEventListener
     {
-        private string name;
+        private string name;  
 
         public Consumer(string name)
         {
